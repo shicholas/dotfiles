@@ -1,0 +1,92 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "eslint.autoFixOnSave": true,
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "html.format.enable": true,
+    "html.format.indentHandlebars": true,
+    "html.format.maxPreserveNewLines": 0,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "files.associations": {
+        "*.yml.erb": "yaml",
+        "*.json.erb": "json"
+    },
+    "git.autofetch": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.minimap.enabled": false,
+    "ruby.rubocop.executePath": "/Users/nicholasshook/.gem/ruby/2.5.8/bin/",
+    "ruby.format": "rubocop",
+    "[markdown]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.quickSuggestions": false
+    },
+    "[mdx]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.quickSuggestions": false,
+        "rewrap.reformat": true,
+    },
+    "languageToolLinter.lintOnSave": true,
+    "languageToolLinter.lintOnOpen": true,
+    "rewrap.autoWrap.enabled": true,
+    "editor.suggestSelection": "first",
+}

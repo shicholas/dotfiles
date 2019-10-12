@@ -1,0 +1,17 @@
+git
+hub
+imagemagick
+jq
+node
+python
+the_silver_searcher
+vim
+chruby
+ruby-install
+minikube
+azure-cli
+gh
+kubernetes-cli
+bat
+git-lfs
+dopplerhq/cli/doppler

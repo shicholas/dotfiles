@@ -1,0 +1,40 @@
+[user]
+	name = nick shook
+	email = nick@shook.family
+[alias]
+	co = checkout
+    cleanup = !git remote prune origin && git gc && git clean -df && git stash clear
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[color "diff"]
+    meta = yellow
+[core]
+	excludesfile = /Users/nick/.gitignore
+	editor = vim --noplugin
+	ignorecase = false
+[apply]
+	whitespace = nowarn
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[help]
+	autocorrect = 1
+[branch]
+	autosetupmerge = true
+    autosetuprebase = always
+[push]
+	default = simple
+[rerere]
+	enabled = 1
+[github]
+	user = shicholas
+[merge]
+        ff = only
+[fetch]
+        prune = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
