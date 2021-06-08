@@ -13,7 +13,8 @@ Also install GUI Applications
 
 * GitHub
 * VSCode
-* Doppler for Secrets
+* 1Password
+* Slack
 
 ## VSCode Settings
 
