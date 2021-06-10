@@ -16,3 +16,4 @@ bat
 git-lfs
 dopplerhq/cli/doppler
 google-cloud-sdk
+melisearch
