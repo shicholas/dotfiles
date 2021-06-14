@@ -10,11 +10,6 @@ if [ -f '/Users/nicholasshook/Downloads/google-cloud-sdk/path.zsh.inc' ]; then .
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/nicholasshook/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nicholasshook/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
-
-#### FIG ENV VARIABLES ####
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####
-
 # GCloud
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
